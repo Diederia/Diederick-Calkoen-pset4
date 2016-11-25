@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93D226A1DE4508000A2A041 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93D22691DE4508000A2A041 /* DatabaseHelper.swift */; };
 		E95ABE6B1DE05FC2006B2155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95ABE6A1DE05FC2006B2155 /* AppDelegate.swift */; };
 		E95ABE6D1DE05FC2006B2155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95ABE6C1DE05FC2006B2155 /* ViewController.swift */; };
 		E95ABE701DE05FC2006B2155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95ABE6E1DE05FC2006B2155 /* Main.storyboard */; };
-		E95ABE721DE05FC2006B2155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95ABE711DE05FC2006B2155 /* Assets.xcassets */; };
 		E95ABE751DE05FC2006B2155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95ABE731DE05FC2006B2155 /* LaunchScreen.storyboard */; };
 		E95ABE941DE0601A006B2155 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95ABE871DE05FEE006B2155 /* SQLite.framework */; };
 		E95ABE9E1DE089CE006B2155 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95ABE9D1DE089CE006B2155 /* CustomCell.swift */; };
@@ -69,11 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E93D22691DE4508000A2A041 /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		E95ABE671DE05FC2006B2155 /* Diederick-Calkoen-pset4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diederick-Calkoen-pset4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95ABE6A1DE05FC2006B2155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95ABE6C1DE05FC2006B2155 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E95ABE6F1DE05FC2006B2155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E95ABE711DE05FC2006B2155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95ABE741DE05FC2006B2155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95ABE761DE05FC2006B2155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95ABE7C1DE05FEE006B2155 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "External/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = SOURCE_ROOT; };
@@ -115,8 +115,8 @@
 				E95ABE6A1DE05FC2006B2155 /* AppDelegate.swift */,
 				E95ABE6C1DE05FC2006B2155 /* ViewController.swift */,
 				E95ABE9D1DE089CE006B2155 /* CustomCell.swift */,
+				E93D22691DE4508000A2A041 /* DatabaseHelper.swift */,
 				E95ABE6E1DE05FC2006B2155 /* Main.storyboard */,
-				E95ABE711DE05FC2006B2155 /* Assets.xcassets */,
 				E95ABE731DE05FC2006B2155 /* LaunchScreen.storyboard */,
 				E95ABE761DE05FC2006B2155 /* Info.plist */,
 			);
@@ -255,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95ABE751DE05FC2006B2155 /* LaunchScreen.storyboard in Resources */,
-				E95ABE721DE05FC2006B2155 /* Assets.xcassets in Resources */,
 				E95ABE701DE05FC2006B2155 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93D226A1DE4508000A2A041 /* DatabaseHelper.swift in Sources */,
 				E95ABE6D1DE05FC2006B2155 /* ViewController.swift in Sources */,
 				E95ABE9E1DE089CE006B2155 /* CustomCell.swift in Sources */,
 				E95ABE6B1DE05FC2006B2155 /* AppDelegate.swift in Sources */,
@@ -313,6 +313,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -363,6 +364,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
